@@ -37,3 +37,7 @@ func CalculateLoan(req LoanRequest) (LoanResponse, error) {
 		Message:      "Loan approved",
 	}, nil
 }
+
+func SayHello(msn string) string {
+	return msn
+}
